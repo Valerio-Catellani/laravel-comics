@@ -27,7 +27,7 @@ Route::get('/movies', function () {
     return view('movies', compact('data'));
 })->name('movies');
 
-Route::get('/comics', function () {
+Route::get('/aboutUs', function () {
     $data = config('mydb');
-    return view('comics', compact('data'));
-})->name('comics');
+    return view('aboutUs', compact('data'));
+})->name('aboutUs');

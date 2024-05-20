@@ -1,12 +1,12 @@
 @extends('layouts.app')
 
-@section('title', 'Moveis')
+@section('title', 'About us')
 
 @section('content')
     <main>
         <div class="container py-5 text-white">
 
-            <h1>Movies</h1>
+            <h1>Aboout Us</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, dolore. Cum, quod debitis praesentium
                 ratione corporis impedit assumenda numquam suscipit iusto exercitationem, voluptatibus vero inventore dolore
                 quisquam, aliquid maiores sequi modi ipsum error est eligendi. Iusto, maiores laboriosam. Aliquam numquam

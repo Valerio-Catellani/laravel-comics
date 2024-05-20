@@ -12,11 +12,12 @@
             </div>
             <div class="card-container row gap-3 py-1 justify-content-center ">
                 @foreach ($data['comics'] as $comic)
-                    <div class="card p-1 col-5 col-md-6 col-lg-3 col-xl-2 mb-4 text-black" role="button">
+                    <div class="card p-1 col-5 col-md-6 col-lg-3 col-xl-2 mb-2 " role="button">
                         <div class="img-container">
                             <img class="img-fluid" src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
                         </div>
-                        <h3 class="mb-0 mt-3">{{ strtoupper($comic['series']) }}</h3>
+                        <h3 class="mb-0 mt-2 text-black text-center">{{ strtoupper($comic['series']) }}</h3>
+                        <p>PRICE: {{ $comic['price'] }}</p>
                     </div>
                 @endforeach
             </div>
