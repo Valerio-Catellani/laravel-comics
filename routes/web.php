@@ -14,5 +14,20 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return redirect()->route('home');
 });
+
+Route::get('/home', function () {
+    $data = config('mydb');
+    return view('home', compact('data'));
+})->name('home');
+
+Route::get('/movies', function () {
+    $data = config('mydb');
+    return view('movies', compact('data'));
+})->name('movies');
+
+Route::get('/comics', function () {
+    $data = config('mydb');
+    return view('comics', compact('data'));
+})->name('comics');
