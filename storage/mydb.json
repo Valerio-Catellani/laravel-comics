@@ -20,23 +20,23 @@
         "merchandaisingItems": [
             {
                 "name": "Digital Comics",
-                "img": "/images/buy-comics-digital-comics.png"
+                "img": "buy-comics-digital-comics.png"
             },
             {
                 "name": "DC Merchandise",
-                "img": "/images/buy-comics-merchandise.png"
+                "img": "buy-comics-merchandise.png"
             },
             {
                 "name": "Subscription",
-                "img": "/images/buy-comics-subscriptions.png"
+                "img": "buy-comics-subscriptions.png"
             },
             {
                 "name": "Comic Shop Locator",
-                "img": "/images/buy-comics-shop-locator.png"
+                "img": "buy-comics-shop-locator.png"
             },
             {
                 "name": "DC Power Visa",
-                "img": "/images/buy-dc-power-visa.svg"
+                "img": "buy-dc-power-visa.svg"
             }
         ],
         "menues": [
@@ -164,27 +164,27 @@
         "contacts": [
             {
                 "name": "facebook",
-                "img": "/images/footer-facebook.png",
+                "img": "footer-facebook.png",
                 "url": "#"
             },
             {
                 "name": "Twitter",
-                "img": "/images/footer-twitter.png",
+                "img": "footer-twitter.png",
                 "url": "#"
             },
             {
                 "name": "Youtube",
-                "img": "/images/footer-youtube.png",
+                "img": "footer-youtube.png",
                 "url": "#"
             },
             {
                 "name": "Pinterest",
-                "img": "/images/footer-pinterest.png",
+                "img": "footer-pinterest.png",
                 "url": "#"
             },
             {
                 "name": "Periscope",
-                "img": "/images/footer-periscope.png",
+                "img": "footer-periscope.png",
                 "url": "#"
             }
         ]
